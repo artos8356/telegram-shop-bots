@@ -1,0 +1,16 @@
+# Пример шаблона systemd: один файл на всех клиентов.
+# Бот клиента запускается командой: systemctl start bot@имя_клиента
+# Код каждого клиента лежит в /root/bots/имя_клиента/
+
+[Unit]
+Description=Telegram bot for %i
+After=network.target
+
+[Service]
+WorkingDirectory=/root/bots/%i
+ExecStart=/root/bots/%i/venv/bin/python bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

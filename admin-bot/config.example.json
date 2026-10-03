@@ -1,0 +1,9 @@
+{
+  "bot_token": "ВСТАВЬ_ТОКЕН_СЮДА",
+  "admin_chat_id": 0,
+  "contact_username": "@your_username",
+  "payment_requisites": "Реквизиты для оплаты подписки",
+  "default_price": 1000,
+  "reminder_days_before": 3,
+  "reminder_hour": 10
+}

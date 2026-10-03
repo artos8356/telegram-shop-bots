@@ -1,0 +1,12 @@
+{
+  "bot_token": "ВСТАВЬ_ТОКЕН_СЮДА",
+  "admin_chat_id": 0,
+  "shop_name": "Мой магазин",
+  "support_contact": "@your_support_username",
+  "welcome_footer": "Бот создан на заказ",
+  "reviews_url": "https://t.me/your_reviews_channel",
+  "payment_requisites": "Реквизиты для оплаты",
+  "reminder_delay_seconds": 3600,
+  "keep_backups": 14,
+  "backup_interval_seconds": 86400
+}
